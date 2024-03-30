@@ -11,6 +11,8 @@ body {
 main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 
 }
@@ -18,8 +20,10 @@ main {
 .container {
     width: 870px;
     background-color: white;
-    padding-left: 30px;
-    margin-top: 33px;
+    padding-left: 33px;
+    padding-bottom: 40px;
+    margin-top: 21px;
+    border-radius: 10px;
 }
 
 /*for all h2 tag style*/
@@ -27,6 +31,7 @@ h2 {
     color: #562EFF;
     font-size: 24px;
     font-weight: 500;
+    margin: 30px 0px 30px 0px;
 }
 
 
@@ -62,8 +67,13 @@ hr {
 
 }
 
-/*-------------
-----------*/
+/*-----------------
+top player style end from here-----
+----------------------*/
+
+/*---------------------
+blog style start from here
+-----------------------*/
 .articales {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -76,6 +86,35 @@ hr {
 }
 
 .articale img {
-    width: 117px;
+    width: 177px;
     height: 117px;
 }
+
+
+.blog-detail {
+    margin-left: 16px;
+}
+
+.blog-detail h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blog-author {
+
+    color: #9F9F9F;
+}
+
+.blog-author a {
+    font-size: 16px;
+    color: #562EFF;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+/*---------------------
+blog style end from here
+-----------------------*/
+/*---------------------------------
+Latest Courses style start from here
+-----------------------------------*/
